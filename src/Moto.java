@@ -1,4 +1,5 @@
-
+/**
+	Versione 2 online
 public class Moto extends Veicolo {
 
 	private int nruote;
@@ -24,7 +25,7 @@ public class Moto extends Veicolo {
 		String s="VEICOLO: MOTO\n";
 		s+=super.toString();
 		s+="Numero ruote: "+nruote+"\n";
-		s+="Tariffa giornaliera: "+tariffaG+"€\n";
+		s+="Tariffa giornaliera: "+tariffaG+"â‚¬\n";
 		s+="guadagno: "+getCostoG()+"\n";
 		return s;
 	}
